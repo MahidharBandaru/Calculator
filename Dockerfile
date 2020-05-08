@@ -1,4 +1,4 @@
-M python:3.5
+python:3.5
 MAINTAINER Mahidhar 
 WORKDIR /calculator
 ADD . /calculator
