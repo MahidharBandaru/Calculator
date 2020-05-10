@@ -16,7 +16,7 @@ pipeline {
         stage('test'){
             steps {
                 sh 'pip3 install pytest'
-                sh 'pytest'
+                sh 'python -m pytest'
             }
         }
         stage('Archive'){
