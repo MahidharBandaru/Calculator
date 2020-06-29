@@ -14,7 +14,8 @@ if __name__ == "__main__":
     b = 3
     if oprnd == "+":
         print(add(a, b))
-    if oprnd == "+":
-        print(add(a, b))
+    
     if oprnd == "-":
         print(subtract(a, b))
+    if oprnd == "*":
+        print(multiple(a, b))
